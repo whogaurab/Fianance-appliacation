@@ -6,12 +6,12 @@ const HeroSection = () => {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h1>Stay In Control Your Finances With Orio</h1>
-        <p>Welcome to Bankorio</p>
+        <h1>Stay In Control Your Finances With Allenare</h1>
+        <p>Welcome to Allenare</p>
         <button className="cta-button">Open Account</button>
       </div>
       <div className="hero-image">
-        <img src="path-to-your-hero-image.jpg" alt="Hero" />
+        <img src="./src/assets/buildings.png" alt="Hero" />
       </div>
     </section>
   );

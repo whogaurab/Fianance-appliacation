@@ -52,24 +52,54 @@
     gap: 10px;
   }
   
-  .login-btn, .signup-btn {
-    padding: 10px 20px;
-    border: 2px solid #007bff;
-    border-radius: 5px;
-    background-color: transparent;
+  .login, .signup {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 40px;
     cursor: pointer;
-    font-size: 14px;
-    font-weight: 500;
   }
   
-  .signup-btn {
+  .signup {
     background-color: #007bff;
     color: #fff;
   }
   
-  .login-btn:hover, .signup-btn:hover {
+  .login:hover, .signup:hover {
     background-color: #0056b3;
     color: #fff;
     transition: background-color 0.3s ease;
   }
+
+  .dropdown {
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 4px;
+    padding: 0;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.dropdown-content a:hover {
+    background-color: #1e8ee9;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
   
